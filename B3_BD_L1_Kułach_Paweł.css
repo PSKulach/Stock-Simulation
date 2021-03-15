@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Roboto;
+  src: url();
+}
+#bodyContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Roboto", serif;
+  overflow: hidden;
+}
+#topPanel {
+  display: flex;
+  flex: 10;
+  background-color: whitesmoke;
+  border-bottom: 2px solid gainsboro;
+}
+#siteLogoWrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex: 8;
+}
+#siteLogo {
+  width: 90px;
+}
+#siteTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5;
+}
+#siteTitle {
+  display: flex;
+}
+#siteLoginInfo {
+  display: flex;
+  flex: 85;
+}
+#middlePanel {
+  display: flex;
+  flex: 80;
+  flex-direction: row;
+  overflow: hidden;
+}
+#leftSidePanel {
+  display: flex;
+  flex: 100;
+  border-right: 2px solid gainsboro;
+  overflow: hidden;
+}
+#leftSideMenu {
+  display: flex;
+  flex: 1;
+}
+#leftSideMenuTitle {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+#graphContainer {
+  display: flex;
+  flex: 300;
+  flex-direction: column;
+  background-color: white;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#rightSidePanel {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  flex: 75;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+#movingRightPanel {
+  display: flex;
+  right: 0;
+  background-color: honeydew;
+  width: 27.2%;
+  height: 40%;
+}
+#bottomPanel {
+  display: flex;
+  flex: 10;
+  background-color: whitesmoke;
+  border-top: 2px solid gainsboro;
+  overflow: visible;
+}
+#footer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#leftSideMenu {
+  display: flex;
+  flex-direction: column;
+}
+#leftMenuWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.stockWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 40;
+  background-color: white;
+  margin-bottom: 100px;
+}
+.stockData {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+}
+.stockHeaderTop {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+.stockHeaderBottom {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.stockNameWrapper {
+  display: flex;
+  flex: 4;
+}
+.stockName {
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+.stockLogoWrapper {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.stockShortWrapper {
+  display: flex;
+  flex: 15;
+}
+.stockShort {
+  display: flex;
+}
+.stockValueWrapper {
+  display: flex;
+  flex: 25;
+  justify-content: flex-end;
+}
+.stockValue {
+  display: flex;
+  font-size: 25px;
+}
+.stockCurrencyWrapper {
+  display: flex;
+  align-items: flex-end;
+  flex: 7;
+  padding-bottom: 2px;
+}
+.stockCurrency {
+  display: flex;
+  font-size: 15px;
+}
+.stockStonksWrapper {
+  display: flex;
+  flex: 53;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+.stockStonks {
+  display: flex;
+}
+.stockGraphPanel {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  padding-top: 0px;
+}
+.stockYAxis {
+  display: flex;
+  flex-direction: column;
+  padding-top: 23px;
+  padding-bottom: 7px;
+}
+.stockGraphWrapper {
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.stockXAxis {
+  display: flex;
+}
+.pXAxis {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.pYAxis {
+  display: flex;
+  flex: 1;
+  align-content: center;
+}
+.stockGraph {
+  border-bottom: 2px solid grey;
+}
+.stockBottomPanel {
+  display: flex;
+}
+.stockBottomPanelFill {
+  display: flex;
+  flex: 15;
+}
+.stockBonusDataWrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 70;
+  padding: 10px;
+}
+.stockBonusDataColumn {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.stockBonusValuesWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 20;
+}
+.stockBonusData {
+  display: flex;
+}
+.stockBonusLabelsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 30;
+}
+.stockBonusLabels {
+  display: flex;
+}
+.leftMenuOptionWrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-bottom: 2px solid gainsboro;
+}
+.leftMenuOptionWrapper:hover {
+  background-color: gainsboro;
+}
+.leftMenuOptionName {
+  display: flex;
+  flex: 3;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.leftMenuOptionShort {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 5px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: gainsboro;
+}
+img {
+  width: 150px;
+}

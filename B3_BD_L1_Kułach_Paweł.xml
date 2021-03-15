@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="B3_BD_L1_Kułach_Paweł.xsl"?>
+<featured_stocks>
+    <stock id="1">
+        <name>GameStop</name>
+        <short>GME</short>
+        <exchange>NYSE</exchange>
+        <currency>USD</currency>
+        <shares>150</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img2.png" alt="Logo Gamestop"></logo>
+    </stock>
+    <stock id="2">
+        <name>AMC Entertainment Holdings Inc</name>
+        <short>AMC</short>
+        <exchange>NYSE</exchange>
+        <currency>USD</currency>
+        <shares>50</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img3.png" alt="Logo AMC"></logo>
+    </stock>
+    <stock id="3">
+        <name>Tesla, Inc.</name>
+        <short>TSLA</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>15</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img4.png" alt="Logo Tesla"></logo>
+    </stock>
+    <stock id="4">
+        <name>Amazon.com</name>
+        <short>AMZN</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>20</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img5.png" alt="Logo Amazon"></logo>
+    </stock>
+    <stock id="5">
+        <name>AstraZeneca</name>
+        <short>AZN</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>2</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img6.png" alt="Logo AstraZeneca"></logo>
+    </stock>
+    <stock id="6">
+        <name>Pfizer</name>
+        <short>PFE</short>
+        <exchange>NYSE</exchange>
+        <currency>USD</currency>
+        <shares>5</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img7.png" alt="Logo Pfizer"></logo>
+    </stock>
+    <stock id="7">
+        <name>Moderna</name>
+        <short>MRNA</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>10</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img8.png" alt="Logo Moderna"></logo>
+    </stock>
+    <stock id="8">
+        <name>BioNTech</name>
+        <short>BNTX</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>0</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img9.png" alt="Logo BioNTech"></logo>
+    </stock>
+    <stock id="9">
+        <name>Apple</name>
+        <short>AAPL</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>0</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img10.png" alt="Logo Apple"></logo>
+    </stock>
+    <stock id="10">
+        <name>Microsoft</name>
+        <short>MSFT</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>72</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img11.png" alt="Logo Microsoft"></logo>
+    </stock>
+    <stock id="11">
+        <name>Cisco Systems</name>
+        <short>CSCO</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>72</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img12.png" alt="Logo Cisco"></logo>
+    </stock>
+    <stock id="12">
+        <name>Intel</name>
+        <short>INTC</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>72</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img13.png" alt="Logo Intel"></logo>
+    </stock>
+    <stock id="13">
+        <name>Nvidia</name>
+        <short>NVDA</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>30</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img14.png" alt="Logo Nvidia"></logo>
+    </stock>
+    <stock id="14">
+        <name>Advanced Micro Devices</name>
+        <short>AMD</short>
+        <exchange>NASDAQ</exchange>
+        <currency>USD</currency>
+        <shares>0</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img15.png" alt="Logo AMD"></logo>
+    </stock>
+    <stock id="15">
+        <name>IBM</name>
+        <short>IBM</short>
+        <exchange>NYSE</exchange>
+        <currency>USD</currency>
+        <shares>20</shares>
+        <logo src="./assets/B3_BD_L1_Kułach_Paweł_img16.png" alt="Logo IBM"></logo>
+    </stock>
+</featured_stocks>
